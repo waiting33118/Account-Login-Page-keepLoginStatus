@@ -1,0 +1,60 @@
+body {
+	background-color: #fcfcfc;
+}
+
+.login-page {
+	max-width: 350px;
+}
+
+.title {
+	margin-top: 20vh;
+	border-top-right-radius: 18px;
+	border-top-left-radius: 18px;
+}
+
+form {
+	height: 310px;
+	box-shadow: 0px 5px 10px 1px rgba(119, 129, 140, 1);
+	border-bottom-left-radius: 18px;
+	border-bottom-right-radius: 18px;
+}
+
+.form-group {
+	padding-top: 45px;
+}
+
+input[name='email'] {
+	transition: 1.2s;
+	border-top-right-radius: 18px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 18px;
+	border-top-left-radius: 0;
+}
+
+input[name='password'] {
+	transition: 1.2s;
+	border-top-right-radius: 18px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 18px;
+	border-top-left-radius: 0;
+}
+
+input[name='email']:focus {
+	transition: 1.2s;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 18px;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 18px;
+}
+
+input[name='password']:focus {
+	transition: 1.2s;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 18px;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 18px;
+}
+
+button[type='submit'] {
+	box-shadow: 0 0 30px rgba(43, 255, 0, 0.336);
+}

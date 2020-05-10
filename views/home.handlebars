@@ -1,0 +1,17 @@
+<div class="container login-page">
+  <div class="title bg-success text-center py-3">
+    <span class="h3 font-weight-normal text-white">Account Login</span>
+  </div>
+  <form action="/" method="post">
+    <div class="form-group d-flex flex-column flex-nowrap align-items-center">
+      <input type="email" class="form-control form-control-lg" name="email" style="width: 250px;" placeholder="email"
+        value="{{userInput.email}}" required>
+      <input type="password" class="form-control form-control-lg mt-3" name="password" style="width: 250px;"
+        placeholder="password" required>
+      <small id="passwordHelpBlock" class="form-text text-danger" style="height:20px">
+        {{errMessage}}
+      </small>
+      <button type="submit" class="btn btn-lg btn-success rounded-pill mt-4" style="width: 250px;">Sign in</button>
+    </div>
+  </form>
+</div>
