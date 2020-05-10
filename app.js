@@ -15,10 +15,6 @@ app.get('/', (req, res) => {
 	res.render('home')
 })
 
-app.get('/logout', (req, res) => {
-	res.render('home')
-})
-
 app.post('/', (req, res) => {
 	const checkedResult = checkPermission(req.body)
 	if (!checkedResult) {
