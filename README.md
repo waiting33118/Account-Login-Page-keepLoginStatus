@@ -1,4 +1,4 @@
-# 手刻登入頁面
+# 手刻登入頁面(登入後保持登入)
 
 使用 Node.js + Express + Express-handlebars + Bootstrap 4 所打造的登入頁面
 
@@ -11,7 +11,7 @@
 #### 下載專案
 
 ```
-git clone https://github.com/waiting33118/Account-Login-Page.git
+git clone https://github.com/waiting33118/Account-Login-Page-keepLoginStatus.git
 ```
 
 #### 安裝 Package
@@ -66,6 +66,7 @@ password
 - Express V4.17.1 -框架
 - Express-Handlebars V4.0.4 -模板引擎
 - Body-Parser V1.19.0 -解析網址 request 內容
+- express-session V1.17.1 -儲存使用者登入狀態
 
 ## 產品功能
 
@@ -73,6 +74,7 @@ password
 - 使用者輸入帳密：email & password
 - 如果找不到 username，或是 password 錯誤，介面會顯示 "Username/Password 錯誤"
 - 如果 username + password 組合正確，使用者就能成功登入，並導向自己的 welcome page，在此頁面上會顯示登入使用者的 firstName。
+- 當登入後保持登入狀態，直到登出為止
 
 ## Contributor
 
